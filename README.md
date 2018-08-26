@@ -1,5 +1,4 @@
 # Udacity Reinforcement Learning: Navigation Project
-## Author: Kamal Mannar
 ### Introduction
 This project contains an implementation of DQN (Deep Q-Network) model for reinforcement learning problem of banana collector in unity as part of udacity deep reinforcement course . In the game  agents move around an area attempting to collect as many rewarding bananas (yellow) as possible, while avoiding negatively rewarding bananas (purple). The objective of the DQN model is to use be able to train an agent to maximize reward (yellow banana while avoiding purple banana) leveraging information on the state (continous) and making discrete decisiosn (direction of movement).
 
