@@ -14,6 +14,7 @@ class QNetwork(nn.Module):
             seed (int): Random seed
             fc1_units (int): Number of nodes in first hidden layer
             fc2_units (int): Number of nodes in second hidden layer
+            fc3_units (int): Number of nodes in third hidden layer
         """
         super(QNetwork, self).__init__()
         self.seed = torch.manual_seed(seed)
